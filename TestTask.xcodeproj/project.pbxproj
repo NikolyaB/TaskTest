@@ -10,9 +10,10 @@
 		951986192B264F7D00475A3B /* TopScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951986182B264F7D00475A3B /* TopScreenViewModel.swift */; };
 		9519861C2B265B0000475A3B /* TradeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519861B2B265B0000475A3B /* TradeScreenViewModel.swift */; };
 		9519861F2B265D8300475A3B /* CurrencyPairScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519861E2B265D8300475A3B /* CurrencyPairScreenViewModel.swift */; };
+		951986232B27219500475A3B /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951986222B27219500475A3B /* Inter.ttf */; };
+		951986252B2727FB00475A3B /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 951986242B2727FB00475A3B /* Inter-Bold.otf */; };
+		951986272B27280600475A3B /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951986262B27280600475A3B /* SFProText.ttf */; };
 		953FCEBF2B263BC0009412CF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FCEBE2B263BC0009412CF /* View.swift */; };
-		953FCEC22B26453A009412CF /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 953FCEC12B26453A009412CF /* Inter.ttf */; };
-		953FCEC42B2646A8009412CF /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 953FCEC32B2646A8009412CF /* SFProText.ttf */; };
 		959D3FC42B25EC5C001F95D6 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FC32B25EC5C001F95D6 /* BalanceView.swift */; };
 		959D3FC62B25F452001F95D6 /* onCurrencyPairButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FC52B25F452001F95D6 /* onCurrencyPairButton.swift */; };
 		959D3FC92B25F787001F95D6 /* TradeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FC82B25F787001F95D6 /* TradeWebView.swift */; };
@@ -42,9 +43,10 @@
 		951986182B264F7D00475A3B /* TopScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScreenViewModel.swift; sourceTree = "<group>"; };
 		9519861B2B265B0000475A3B /* TradeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeScreenViewModel.swift; sourceTree = "<group>"; };
 		9519861E2B265D8300475A3B /* CurrencyPairScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairScreenViewModel.swift; sourceTree = "<group>"; };
+		951986222B27219500475A3B /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inter.ttf; sourceTree = "<group>"; };
+		951986242B2727FB00475A3B /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		951986262B27280600475A3B /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProText.ttf; sourceTree = "<group>"; };
 		953FCEBE2B263BC0009412CF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		953FCEC12B26453A009412CF /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter.ttf; path = "../../../../Downloads/Inter 2/Inter.ttf"; sourceTree = "<group>"; };
-		953FCEC32B2646A8009412CF /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SFProText.ttf; path = ../../../../Downloads/SFProText.ttf; sourceTree = "<group>"; };
 		959D3FC32B25EC5C001F95D6 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 		959D3FC52B25F452001F95D6 /* onCurrencyPairButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onCurrencyPairButton.swift; sourceTree = "<group>"; };
 		959D3FC82B25F787001F95D6 /* TradeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeWebView.swift; sourceTree = "<group>"; };
@@ -109,8 +111,9 @@
 		953FCEC02B264479009412CF /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				953FCEC32B2646A8009412CF /* SFProText.ttf */,
-				953FCEC12B26453A009412CF /* Inter.ttf */,
+				951986262B27280600475A3B /* SFProText.ttf */,
+				951986242B2727FB00475A3B /* Inter-Bold.otf */,
+				951986222B27219500475A3B /* Inter.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -352,11 +355,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951986272B27280600475A3B /* SFProText.ttf in Resources */,
 				95AAE7542B25BFF10067DDAD /* Preview Assets.xcassets in Resources */,
+				951986232B27219500475A3B /* Inter.ttf in Resources */,
 				95AAE7512B25BFF10067DDAD /* Assets.xcassets in Resources */,
 				959D3FD52B262245001F95D6 /* info.plist in Resources */,
-				953FCEC22B26453A009412CF /* Inter.ttf in Resources */,
-				953FCEC42B2646A8009412CF /* SFProText.ttf in Resources */,
+				951986252B2727FB00475A3B /* Inter-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Fonts provided by application</key>
+	<array>
+		<string>Inter-Bold.otf</string>
+		<string>Inter.ttf</string>
+		<string>SFProText.ttf</string>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Inter-Bold.otf</string>
 		<string>SFProText.ttf</string>
 		<string>Inter.ttf</string>
 	</array>

@@ -22,7 +22,7 @@ struct BalanceView: View {
                 .padding(.bottom, 7)
             Text(balance)
                 .foregroundColor(Color.white)
-                .font(.custom("SFProText", size: 16).weight(.bold))
+                .font(.custom("Inter", size: 16).weight(.bold))
         }
         .padding(.top, 5)
         .padding(.bottom, 8)

@@ -27,7 +27,7 @@ struct onCurrencyPairButton: View {
             ZStack(alignment: .center) {
                 VStack(spacing: 0) {
                     Text(currency)
-                        .font(.custom("SFProText", size: 16).weight(.bold))
+                        .font(.custom("Inter", size: 16).weight(.bold))
                 }
                 .frame(maxWidth: .infinity, alignment: .center)
                 if (isNavigation) {

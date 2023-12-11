@@ -11,6 +11,10 @@ struct CurrencyPairScreenView: View {
 
     @ObservedObject var viewModel = CurrencyPairScreenViewModel.shared
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    init() {
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "Inter-Bold", size: 22)!]
+    }
 
     let columns = [
         GridItem(),

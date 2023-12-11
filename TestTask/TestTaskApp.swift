@@ -12,10 +12,6 @@ import UserNotifications
 struct TestTaskApp: App {
 
     @StateObject private var launchScreenState = LaunchScreenStateManager()
-
-    init() {
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-    }
     
     var body: some Scene {
         WindowGroup {

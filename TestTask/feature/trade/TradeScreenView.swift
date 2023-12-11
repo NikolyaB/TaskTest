@@ -11,6 +11,10 @@ struct TradeScreenView: View {
     
     @StateObject var viewModel = TradeScreenViewModel()
     
+    init() {
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "Inter-Bold", size: 22)!]
+    }
+    
     var body: some View {
         NavigationView {
             ZStack {

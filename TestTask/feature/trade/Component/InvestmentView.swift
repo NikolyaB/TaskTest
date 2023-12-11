@@ -39,7 +39,7 @@ struct InvestmentView: View {
                 }
                     .keyboardType(.numberPad)
                     .foregroundColor(.white)
-                    .font(.custom("SFProText", size: 16).weight(.bold))
+                    .font(.custom("Inter", size: 16).weight(.bold))
                     .minimumScaleFactor(0.8)
                 
                 Button(action: {

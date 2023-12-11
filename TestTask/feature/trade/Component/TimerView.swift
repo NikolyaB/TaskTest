@@ -40,8 +40,8 @@ struct TimerView: View {
                 }
                 .keyboardType(.numberPad)
                 .foregroundColor(.white)
-                .font(.custom("SFProText", size: 16).weight(.bold))
-                .minimumScaleFactor(0.8)
+                .font(.custom("Inter", size: 16).weight(.bold))
+                .minimumScaleFactor(0.7)
                 
                 Button(action: {
                     self.timerValue += 1

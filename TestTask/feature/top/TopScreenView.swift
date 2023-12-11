@@ -10,6 +10,10 @@ import SwiftUI
 struct TopScreenView: View {
     
     @StateObject var viewModel = TopScreenViewModel()
+    
+    init() {
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "Inter-Bold", size: 22)!]
+    }
 
     var body: some View {
         NavigationView {
