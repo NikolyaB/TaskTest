@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct TestTaskApp: App {
+
+    @StateObject private var launchScreenState = LaunchScreenStateManager()
+
+    init() {
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                MainScreenView()
+                
+                if launchScreenState.state != .finished {
+                    LaunchScreenView()
+                }
+            }
+            .environmentObject(launchScreenState)
         }
     }
 }
