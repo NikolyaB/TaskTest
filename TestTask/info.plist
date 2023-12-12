@@ -2,18 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Fonts provided by application</key>
-	<array>
-		<string>Inter-Bold.otf</string>
-		<string>Inter.ttf</string>
-		<string>SFProText.ttf</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Inter-Bold.otf</string>
-		<string>SFProText.ttf</string>
-		<string>Inter.ttf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -27,6 +15,20 @@
 		<string>en</string>
 		<string>ru</string>
 	</array>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>Fonts provided by application</key>
+	<array>
+		<string>Inter-Bold.otf</string>
+		<string>Inter.ttf</string>
+		<string>SFProText.ttf</string>
+	</array>
 	<key>NSLocalizableString</key>
 	<dict>
 		<key>NSLocationAlwaysUsageDescription</key>
@@ -34,25 +36,12 @@
 		<key>NSLocationWhenInUseUsageDescription</key>
 		<string>Разрешите приложению отправлять уведомления для уведомлений о новых функциях и обновлениях.</string>
 	</dict>
-	<key>UNNotification</key>
-	<dict>
-		<key>UNNotificationDefaultAuthorizationOptions</key>
-		<string>YES</string>
-		<key>UNNotificationSound</key>
-		<string>YES</string>
-		<key>UNNotificationBadge</key>
-		<string>YES</string>
-		<key>UNNotificationAlert</key>
-		<string>YES</string>
-	</dict>
-	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
-	<key>CFBundlePackageType</key>
-	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Bold.otf</string>
+		<string>SFProText.ttf</string>
+		<string>Inter.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -70,5 +59,16 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Dark</string>
+	<key>UNNotification</key>
+	<dict>
+		<key>UNNotificationAlert</key>
+		<string>YES</string>
+		<key>UNNotificationBadge</key>
+		<string>YES</string>
+		<key>UNNotificationDefaultAuthorizationOptions</key>
+		<string>YES</string>
+		<key>UNNotificationSound</key>
+		<string>YES</string>
+	</dict>
 </dict>
 </plist>

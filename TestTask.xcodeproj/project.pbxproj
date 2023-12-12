@@ -22,7 +22,6 @@
 		959D3FCF2B2606AE001F95D6 /* onBuySellButtonClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FCE2B2606AE001F95D6 /* onBuySellButtonClick.swift */; };
 		959D3FD12B260BF6001F95D6 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FD02B260BF6001F95D6 /* TradeView.swift */; };
 		959D3FD32B2615E8001F95D6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FD22B2615E8001F95D6 /* UIViewController.swift */; };
-		959D3FD52B262245001F95D6 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 959D3FD42B262245001F95D6 /* info.plist */; };
 		959D3FD82B2629C8001F95D6 /* LaunchScreenStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FD72B2629C8001F95D6 /* LaunchScreenStateManager.swift */; };
 		959D3FDA2B262A5E001F95D6 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D3FD92B262A5E001F95D6 /* LaunchScreenView.swift */; };
 		95AAE74D2B25BFEF0067DDAD /* TestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAE74C2B25BFEF0067DDAD /* TestTaskApp.swift */; };
@@ -359,7 +358,6 @@
 				95AAE7542B25BFF10067DDAD /* Preview Assets.xcassets in Resources */,
 				951986232B27219500475A3B /* Inter.ttf in Resources */,
 				95AAE7512B25BFF10067DDAD /* Assets.xcassets in Resources */,
-				959D3FD52B262245001F95D6 /* info.plist in Resources */,
 				951986252B2727FB00475A3B /* Inter-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,7 +530,7 @@
 				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = /Users/nikolay/IosProjects/TestTask/TestTask/info.plist;
+				INFOPLIST_FILE = TestTask/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,7 +541,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -564,7 +562,7 @@
 				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = /Users/nikolay/IosProjects/TestTask/TestTask/info.plist;
+				INFOPLIST_FILE = TestTask/info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -575,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = testTask.TestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
